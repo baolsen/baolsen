@@ -12,7 +12,7 @@ jobs:
     name: test
     # For public repos use runs-on: ubuntu-latest
     # For private repos use runs-on: self-hosted
-    runs-on: codebuild-TestGHRunners-${{ github.run_id }}-${{ github.run_attempt }}
+    runs-on: codebuild-cat-genrl-prd-infra-github-runner-${{ github.run_id }}-${{ github.run_attempt }}
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-python@v2
