@@ -15,4 +15,4 @@ jobs:
     runs-on: codebuild-cat-genrl-prd-infra-github-runner-${{ github.run_id }}-${{ github.run_attempt }}
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/setup-python@v2
+      - uses: actions/setup-python@v5
