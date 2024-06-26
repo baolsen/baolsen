@@ -29,11 +29,10 @@ Evidently, I can also use Chat-GPT.
 
 ⚡ I am proficient in Python, PySpark, Terraform and SQL. 
 
-I have spent hours coaxing enterprise Hadoop into submission, wrangling with data, partitioning and re-partitioning, and copying data from A to B, then B to C, then from C back to A. 
+I have spent hours coaxing enterprise Hadoop into submission, wrangling with data, partitioning and re-partitioning.... and copying data from A to B, then B to C, then from C back to A.  Yes, they pay me for that.
 
-Sometimes they pay me for that.
-
-💬 When I'm not knee-deep in data artitecture or processing petabytes of data, you can find me pondering life's great questions. Like whether Kerberos would produce a better error message if I sacrificied a few lambs (unfortunately none of his three heads posses the gift and curse of speech). 
+💬 When I'm not knee-deep designing data arctitecture or processing petabytes of data, you can find me pondering life's great questions. 
+Like whether Kerberos would produce a better error message if I first sacrificied a few lambs (unfortunately none of his three heads posses the gift and curse of speech). 
 
 I possess excellent technical skills, with the ability to pick up new technologies quickly.
 
