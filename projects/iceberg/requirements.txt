@@ -1,0 +1,4 @@
+boto3
+duckdb
+ipykernel
+pyspark==3.5.4

@@ -1,0 +1,83 @@
+{
+  "format-version" : 2,
+  "table-uuid" : "189908e5-452c-4933-87b2-dc104d55da05",
+  "location" : "local-warehouse/iceberg_test_db/users_parquet",
+  "last-sequence-number" : 1,
+  "last-updated-ms" : 1737720360275,
+  "last-column-id" : 3,
+  "current-schema-id" : 0,
+  "schemas" : [ {
+    "type" : "struct",
+    "schema-id" : 0,
+    "fields" : [ {
+      "id" : 1,
+      "name" : "id",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 2,
+      "name" : "name",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 3,
+      "name" : "age",
+      "required" : false,
+      "type" : "int"
+    } ]
+  } ],
+  "default-spec-id" : 0,
+  "partition-specs" : [ {
+    "spec-id" : 0,
+    "fields" : [ ]
+  } ],
+  "last-partition-id" : 999,
+  "default-sort-order-id" : 0,
+  "sort-orders" : [ {
+    "order-id" : 0,
+    "fields" : [ ]
+  } ],
+  "properties" : {
+    "owner" : "bjorn",
+    "write.format.default" : "parquet",
+    "write.parquet.compression-codec" : "zstd"
+  },
+  "current-snapshot-id" : 6516772329976617103,
+  "refs" : {
+    "main" : {
+      "snapshot-id" : 6516772329976617103,
+      "type" : "branch"
+    }
+  },
+  "snapshots" : [ {
+    "sequence-number" : 1,
+    "snapshot-id" : 6516772329976617103,
+    "timestamp-ms" : 1737720360275,
+    "summary" : {
+      "operation" : "append",
+      "spark.app.id" : "local-1737719379677",
+      "added-data-files" : "3",
+      "added-records" : "3",
+      "added-files-size" : "2513",
+      "changed-partition-count" : "1",
+      "total-records" : "3",
+      "total-files-size" : "2513",
+      "total-data-files" : "3",
+      "total-delete-files" : "0",
+      "total-position-deletes" : "0",
+      "total-equality-deletes" : "0"
+    },
+    "manifest-list" : "local-warehouse/iceberg_test_db/users_parquet/metadata/snap-6516772329976617103-1-80d2c45b-6eff-4c86-8363-1adbe8b8c2d7.avro",
+    "schema-id" : 0
+  } ],
+  "statistics" : [ ],
+  "partition-statistics" : [ ],
+  "snapshot-log" : [ {
+    "timestamp-ms" : 1737720360275,
+    "snapshot-id" : 6516772329976617103
+  } ],
+  "metadata-log" : [ {
+    "timestamp-ms" : 1737720359996,
+    "metadata-file" : "local-warehouse/iceberg_test_db/users_parquet/metadata/v1.metadata.json"
+  } ]
+}
