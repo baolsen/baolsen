@@ -3,3 +3,8 @@
 
 # projects/iceberg
 projects/iceberg/spark-warehouse/iceberg
+
+.DS_Store
+
+data.txt
+output.txt
